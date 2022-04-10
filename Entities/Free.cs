@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Entities
 {
-    internal class Free
+    public class Free : Base
     {
+        public string Title { get; set; }
+        public string Description { get; set; }
+        public string IconURL { get; set; }
     }
 }

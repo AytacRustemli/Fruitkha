@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace Entities
 {
-    internal class Product
+    public class Product : Base
     {
+        public string Title { get; set; }
+        public string Description { get; set; }
+        public string PhotoURL { get; set; }
+        public decimal Price { get; set; }
+        public int CategoryId { get; set; }
+        public Category Category { get; set; }
     }
 }
