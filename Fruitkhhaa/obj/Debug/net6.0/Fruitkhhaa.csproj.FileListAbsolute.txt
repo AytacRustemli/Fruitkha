@@ -276,3 +276,4 @@ C:\Users\User\OneDrive\İş masası\K205\Back\Fruitkhhaa\Fruitkhhaa\bin\Debug\ne
 C:\Users\User\OneDrive\İş masası\K205\Back\Fruitkhhaa\Fruitkhhaa\bin\Debug\net6.0\Services.dll
 C:\Users\User\OneDrive\İş masası\K205\Back\Fruitkhhaa\Fruitkhhaa\bin\Debug\net6.0\Services.pdb
 C:\Users\User\OneDrive\İş masası\K205\Back\Fruitkhhaa\Fruitkhhaa\obj\Debug\net6.0\scopedcss\Areas\admin\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\User\OneDrive\İş masası\K205\Back\Fruitkhhaa\Fruitkhhaa\obj\Debug\net6.0\scopedcss\Areas\admin\Views\Shared\_LayoutAuth.cshtml.rz.scp.css

@@ -11,5 +11,7 @@ namespace Entities
     {
         public string Name { get; set; }
         public string Surname { get; set; }
+        public string PhotoURL { get; set; }
+        public string About { get; set; }
     }
 }

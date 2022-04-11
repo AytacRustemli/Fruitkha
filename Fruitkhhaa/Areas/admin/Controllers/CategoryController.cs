@@ -1,4 +1,5 @@
 ﻿using Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Services.Abstract;
@@ -6,6 +7,7 @@ using Services.Abstract;
 namespace Fruitkhhaa.Areas.admin.Controllers
 {
     [Area("admin")]
+    [Authorize]
     public class CategoryController : Controller
     {
         private readonly ICategoryManager _categoryManager;
