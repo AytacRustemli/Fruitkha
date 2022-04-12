@@ -27,6 +27,9 @@ namespace DataAccess
         public DbSet<Photo> Photos { get; set; }
         public DbSet<Sale> Sales { get; set; }
         public DbSet<Since> Sinces { get; set; }
+        public DbSet<Comment> Comments { get; set; }
+        public DbSet<New> News { get; set; }
+        public DbSet<Organic> Organics { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

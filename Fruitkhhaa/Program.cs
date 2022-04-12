@@ -23,6 +23,8 @@ builder.Services.AddDefaultIdentity<User>().AddRoles<IdentityRole>()
 
 
 builder.Services.AddScoped<ICategoryManager, CategoryManager>();
+builder.Services.AddScoped<IProductManager, ProductManager>();
+builder.Services.AddScoped<INewManager, NewManager>();
 
 
 
