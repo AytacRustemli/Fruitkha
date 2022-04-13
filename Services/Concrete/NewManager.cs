@@ -1,11 +1,12 @@
-﻿using System;
+﻿using DataAccess;
+using Entities;
+using Microsoft.EntityFrameworkCore;
+using Services.Abstract;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using DataAccess;
-using Entities;
-using Services.Abstract;
 
 namespace Services.Concrete
 {
@@ -20,6 +21,7 @@ namespace Services.Concrete
 
         public void Create(New news)
         {
+            news.PublishDate = DateTime.Now;
             _context.News.Add(news);
             _context.SaveChanges();
         }
@@ -38,13 +40,12 @@ namespace Services.Concrete
 
         public List<New> GetAll()
         {
-            var newss = _context.News.ToList();
-            return newss;
+            return _context.News.Include(x=>x.User).ToList();
         }
 
         public New GetById(int id)
         {
-            var news = _context.News.FirstOrDefault(x => x.Id == id);
+           var news = _context.News.FirstOrDefault(x=>x.Id == id);
             return news;
         }
     }

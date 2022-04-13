@@ -12,11 +12,12 @@ namespace Fruitkhhaa.Areas.admin.Controllers
     {
         private readonly IProductManager _productManager;
         private readonly ICategoryManager _categoryManager;
-
-        public ProductController(IProductManager productManager, ICategoryManager categoryManager)
+        private readonly IWebHostEnvironment _environment;
+        public ProductController(IProductManager productManager, ICategoryManager categoryManager, IWebHostEnvironment environment)
         {
             _productManager = productManager;
             _categoryManager = categoryManager;
+            _environment = environment;
         }
 
         // GET: ProductController
@@ -42,10 +43,16 @@ namespace Fruitkhhaa.Areas.admin.Controllers
         // POST: ProductController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Create(Product product)
+        public async Task<IActionResult> Create(Product product,IFormFile Image)
         {
+            string path = "/files/" + Guid.NewGuid() + Image.FileName;
+            using (var fileStream = new FileStream(_environment.WebRootPath + path, FileMode.Create))
+            {
+                await Image.CopyToAsync(fileStream);
+            }
             try
             {
+                product.PhotoURL = path;
                 _productManager.Create(product);
                 return RedirectToAction(nameof(Index));
             }
@@ -56,18 +63,27 @@ namespace Fruitkhhaa.Areas.admin.Controllers
         }
 
         // GET: ProductController/Edit/5
-        public ActionResult Edit(int id)
+        public IActionResult Edit(int id)
         {
-            return View();
+            ViewBag.Categories = _categoryManager.GetAll();
+            var product = _productManager.GetById(id);
+            return View(product);
         }
 
         // POST: ProductController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        public async Task<IActionResult> Edit(int id, Product product, IFormFile Image)
         {
+            string path = "/files/" + Guid.NewGuid() + Image.FileName;
+            using (var fileStream = new FileStream(_environment.WebRootPath + path, FileMode.Create))
+            {
+                await Image.CopyToAsync(fileStream);
+            }
             try
             {
+                product.PhotoURL = path;
+                _productManager.Edit(product);
                 return RedirectToAction(nameof(Index));
             }
             catch
@@ -77,18 +93,20 @@ namespace Fruitkhhaa.Areas.admin.Controllers
         }
 
         // GET: ProductController/Delete/5
-        public ActionResult Delete(int id)
+        public IActionResult Delete(int id)
         {
-            return View();
+            var product = _productManager.GetById(id);
+            return View(product);
         }
 
         // POST: ProductController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
+        public IActionResult Delete(int id, Product product)
         {
             try
             {
+                _productManager.Delete(product);
                 return RedirectToAction(nameof(Index));
             }
             catch

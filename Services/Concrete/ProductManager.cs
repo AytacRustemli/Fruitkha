@@ -26,12 +26,14 @@ namespace Services.Concrete
 
         public void Delete(Product product)
         {
-            throw new NotImplementedException();
+            _context.Products.Remove(product);
+            _context.SaveChanges();
         }
 
         public void Edit(Product product)
         {
-            throw new NotImplementedException();
+            _context.Products.Update(product);
+            _context.SaveChanges();
         }
 
         public List<Product> GetAll()
@@ -42,7 +44,8 @@ namespace Services.Concrete
 
         public Product GetById(int id)
         {
-            throw new NotImplementedException();
+            var product = _context.Products.FirstOrDefault(x => x.Id == id);
+            return product;
         }
     }
 }

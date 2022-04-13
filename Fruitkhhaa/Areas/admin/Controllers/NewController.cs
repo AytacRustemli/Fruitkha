@@ -5,10 +5,10 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Services.Abstract;
 
-namespace Fruitkhhaa.Areas.admin.Controllers
+namespace Fruitkha.Areas.admin.Controllers
 {
     [Area("admin")]
-    //[Authorize]
+    [Authorize]
     public class NewController : Controller
     {
         private readonly INewManager _newManager;
@@ -25,7 +25,7 @@ namespace Fruitkhhaa.Areas.admin.Controllers
         // GET: NewController
         public IActionResult Index()
         {
-            var news = _newManager.GetAll();
+           var news = _newManager.GetAll();
             return View(news);
         }
 
@@ -44,8 +44,9 @@ namespace Fruitkhhaa.Areas.admin.Controllers
         // POST: NewController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(New news, IFormFile Image)
+        public async Task<IActionResult> Create(New news,IFormFile Image)
         {
+
             string path = "/files/" + Guid.NewGuid() + Image.FileName;
             using (var fileStream = new FileStream(_environment.WebRootPath + path, FileMode.Create))
             {
@@ -56,7 +57,6 @@ namespace Fruitkhhaa.Areas.admin.Controllers
                 var userId = _userManager.GetUserId(HttpContext.User);
                 news.PhotoURL = path;
                 news.UserId = userId;
-
                 _newManager.Create(news);
                 return RedirectToAction(nameof(Index));
             }
@@ -67,18 +67,26 @@ namespace Fruitkhhaa.Areas.admin.Controllers
         }
 
         // GET: NewController/Edit/5
-        public ActionResult Edit(int id)
+        public IActionResult Edit(int id)
         {
-            return View();
+            var news = _newManager.GetById(id);
+            return View(news);
         }
 
         // POST: NewController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        public async Task<IActionResult> Edit(int id,New news,IFormFile Image)
         {
+            string path = "/files/" + Guid.NewGuid() + Image.FileName;
+            using (var fileStream = new FileStream(_environment.WebRootPath + path, FileMode.Create))
+            {
+                await Image.CopyToAsync(fileStream);
+            }
             try
             {
+                news.PhotoURL = path;
+                _newManager.Edit(news);
                 return RedirectToAction(nameof(Index));
             }
             catch
@@ -88,18 +96,20 @@ namespace Fruitkhhaa.Areas.admin.Controllers
         }
 
         // GET: NewController/Delete/5
-        public ActionResult Delete(int id)
+        public IActionResult Delete(int id)
         {
-            return View();
+            var news = _newManager.GetById(id);
+            return View(news);
         }
 
         // POST: NewController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
+        public IActionResult Delete(int id, New news)
         {
             try
             {
+                _newManager.Delete(news);
                 return RedirectToAction(nameof(Index));
             }
             catch
