@@ -14,5 +14,6 @@ namespace Services.Abstract
         void Create(New news);
         void Edit(New news);
         void Delete(New news);
+        New GetNewById(int? id);
     }
 }

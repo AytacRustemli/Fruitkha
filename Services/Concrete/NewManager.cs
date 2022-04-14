@@ -48,5 +48,11 @@ namespace Services.Concrete
            var news = _context.News.FirstOrDefault(x=>x.Id == id);
             return news;
         }
+
+        public New GetNewById(int? id)
+        {
+            var news = _context.News.Include(x=>x.User).FirstOrDefault(x => x.Id == id);
+            return news;
+        }
     }
 }
