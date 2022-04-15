@@ -28,7 +28,8 @@ builder.Services.AddScoped<INewManager, NewManager>();
 builder.Services.AddScoped<IOrganicManager, OrganicManager>();
 builder.Services.AddScoped<IFreeManager,FreeManager>();
 builder.Services.AddScoped<IDealManager, DealManager>();
-
+builder.Services.AddScoped<IOwnerManager, OwnerManager>();
+builder.Services.AddScoped<ISaleManager, SaleManager>();
 
 
 builder.Services.ConfigureApplicationCookie(option =>

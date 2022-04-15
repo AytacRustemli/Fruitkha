@@ -28,6 +28,7 @@ namespace Fruitkhhaa.Controllers
 
                 NewSingle = news,
                 User = _userManager.FindByIdAsync(news.UserId).Result,
+                News = _newManager.GetAll()
                 
             };
             return View(vm);

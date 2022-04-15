@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Le3M9JNW+tnNehlQVap89y6zOaKo7KNweE9coXmJHX8=",
+  "Hash": "zgslaaI/Q7M6D1lSU9Vt9/s9V1RZuFulbAdk/5KzXJc=",
   "Source": "Fruitkhhaa",
   "BasePath": "_content/Fruitkhhaa",
   "Mode": "Default",
@@ -37893,6 +37893,23 @@
       "OriginalItemSpec": "wwwroot\\files\\166178cb-8f1a-418f-8d73-072d211d4099Wallpaper.webp"
     },
     {
+      "Identity": "C:\\Users\\User\\OneDrive\\İş masası\\K205\\Back\\Fruitkhhaa\\Fruitkhhaa\\wwwroot\\files\\1717bf95-ced1-467c-8b65-995d71699bf1cat.jpg",
+      "SourceId": "Fruitkhhaa",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\OneDrive\\İş masası\\K205\\Back\\Fruitkhhaa\\Fruitkhhaa\\wwwroot\\",
+      "BasePath": "_content/Fruitkhhaa",
+      "RelativePath": "files/1717bf95-ced1-467c-8b65-995d71699bf1cat.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\1717bf95-ced1-467c-8b65-995d71699bf1cat.jpg"
+    },
+    {
       "Identity": "C:\\Users\\User\\OneDrive\\İş masası\\K205\\Back\\Fruitkhhaa\\Fruitkhhaa\\wwwroot\\files\\1ef4f8ac-1ea2-4012-8cba-c11d5d961436cat.jpg",
       "SourceId": "Fruitkhhaa",
       "SourceType": "Discovered",
@@ -37908,6 +37925,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\files\\1ef4f8ac-1ea2-4012-8cba-c11d5d961436cat.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\OneDrive\\İş masası\\K205\\Back\\Fruitkhhaa\\Fruitkhhaa\\wwwroot\\files\\27028341-4dc6-4d89-98e2-edf48218a9d6sekil.webp",
+      "SourceId": "Fruitkhhaa",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\OneDrive\\İş masası\\K205\\Back\\Fruitkhhaa\\Fruitkhhaa\\wwwroot\\",
+      "BasePath": "_content/Fruitkhhaa",
+      "RelativePath": "files/27028341-4dc6-4d89-98e2-edf48218a9d6sekil.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\27028341-4dc6-4d89-98e2-edf48218a9d6sekil.webp"
     },
     {
       "Identity": "C:\\Users\\User\\OneDrive\\İş masası\\K205\\Back\\Fruitkhhaa\\Fruitkhhaa\\wwwroot\\files\\2ab6e7d7-1a2a-441d-ac40-e9dd0ef481dcflowers-6895608__340.webp",
@@ -38197,6 +38231,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\files\\632fa069-70fc-473a-9468-86e81e842fddcat.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\OneDrive\\İş masası\\K205\\Back\\Fruitkhhaa\\Fruitkhhaa\\wwwroot\\files\\63f1c7a6-18bc-4fea-98ef-6f42f199de28Wallpaper.webp",
+      "SourceId": "Fruitkhhaa",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\OneDrive\\İş masası\\K205\\Back\\Fruitkhhaa\\Fruitkhhaa\\wwwroot\\",
+      "BasePath": "_content/Fruitkhhaa",
+      "RelativePath": "files/63f1c7a6-18bc-4fea-98ef-6f42f199de28Wallpaper.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\63f1c7a6-18bc-4fea-98ef-6f42f199de28Wallpaper.webp"
     },
     {
       "Identity": "C:\\Users\\User\\OneDrive\\İş masası\\K205\\Back\\Fruitkhhaa\\Fruitkhhaa\\wwwroot\\files\\6afc6f00-022e-42a6-bff0-4e45732739a2wlp.jpg",
@@ -38588,6 +38639,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\files\\ea851fab-86cc-42a8-98e7-7ac5691bd025cat.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\OneDrive\\İş masası\\K205\\Back\\Fruitkhhaa\\Fruitkhhaa\\wwwroot\\files\\fb27827e-b323-486f-ac8f-7291634c30ebWallpaper.webp",
+      "SourceId": "Fruitkhhaa",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\OneDrive\\İş masası\\K205\\Back\\Fruitkhhaa\\Fruitkhhaa\\wwwroot\\",
+      "BasePath": "_content/Fruitkhhaa",
+      "RelativePath": "files/fb27827e-b323-486f-ac8f-7291634c30ebWallpaper.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\fb27827e-b323-486f-ac8f-7291634c30ebWallpaper.webp"
     },
     {
       "Identity": "C:\\Users\\User\\OneDrive\\İş masası\\K205\\Back\\Fruitkhhaa\\Fruitkhhaa\\wwwroot\\files\\fc16c5cb-cd31-4d8e-ae73-1843c74a1dafwlp.jpg",

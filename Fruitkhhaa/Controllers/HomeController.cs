@@ -13,14 +13,16 @@ namespace Fruitkhhaa.Controllers
         private readonly IOrganicManager _organicManager;
         private readonly IFreeManager _freeManager;
         private readonly IDealManager _dealManager;
+        private readonly IOwnerManager _ownerManager;
 
-        public HomeController(ILogger<HomeController> logger, INewManager newManager, IOrganicManager organicManager, IFreeManager freeManager, IDealManager dealManager)
+        public HomeController(ILogger<HomeController> logger, INewManager newManager, IOrganicManager organicManager, IFreeManager freeManager, IDealManager dealManager, IOwnerManager ownerManager)
         {
             _logger = logger;
             _newManager = newManager;
             _organicManager = organicManager;
             _freeManager = freeManager;
             _dealManager = dealManager;
+            _ownerManager = ownerManager;
         }
 
         public IActionResult Index()
@@ -30,7 +32,8 @@ namespace Fruitkhhaa.Controllers
                 News = _newManager.GetAll(),
                 Organies = _organicManager.GetAll(),
                 Frees = _freeManager.GetAll(),
-                Deals = _dealManager.GetAll()
+                Deals = _dealManager.GetAll(),
+                Owners = _ownerManager.GetAll()
 
             };
             return View(vm);

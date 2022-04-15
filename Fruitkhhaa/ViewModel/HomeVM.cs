@@ -8,5 +8,6 @@ namespace Fruitkhhaa.ViewModel
         public List<Organic> Organies { get; set; }
         public List<Free> Frees { get; set; }
         public List<Deal> Deals { get; set; }
+        public List<Owner> Owners { get; set; }
     }
 }
