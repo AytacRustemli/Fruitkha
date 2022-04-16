@@ -7,7 +7,7 @@ namespace Fruitkhhaa.ViewModel
         public New NewSingle { get; set; }
         public List<New> News { get; set; }
         public User User { get; set; }
-        //public List<Comment> Comments { get; set; }
-        //public Comment Comment { get; set; }
+        public List<Comment> Comments { get; set; }
+        public Comment Comment { get; set; }
     }
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zgslaaI/Q7M6D1lSU9Vt9/s9V1RZuFulbAdk/5KzXJc=",
+  "Hash": "UP2O7WQPYlN5X2G+D+un0S+o39v4Q1IIjM8nUt/Iiz4=",
   "Source": "Fruitkhhaa",
   "BasePath": "_content/Fruitkhhaa",
   "Mode": "Default",
@@ -37876,6 +37876,23 @@
       "OriginalItemSpec": "wwwroot\\files\\0e99f187-97ee-47b7-8d9f-3326fef3c292sekil.webp"
     },
     {
+      "Identity": "C:\\Users\\User\\OneDrive\\İş masası\\K205\\Back\\Fruitkhhaa\\Fruitkhhaa\\wwwroot\\files\\14288eae-01b1-4b5e-b7cd-75204fe4944dflowers-6895608__340.webp",
+      "SourceId": "Fruitkhhaa",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\OneDrive\\İş masası\\K205\\Back\\Fruitkhhaa\\Fruitkhhaa\\wwwroot\\",
+      "BasePath": "_content/Fruitkhhaa",
+      "RelativePath": "files/14288eae-01b1-4b5e-b7cd-75204fe4944dflowers-6895608__340.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\14288eae-01b1-4b5e-b7cd-75204fe4944dflowers-6895608__340.webp"
+    },
+    {
       "Identity": "C:\\Users\\User\\OneDrive\\İş masası\\K205\\Back\\Fruitkhhaa\\Fruitkhhaa\\wwwroot\\files\\166178cb-8f1a-418f-8d73-072d211d4099Wallpaper.webp",
       "SourceId": "Fruitkhhaa",
       "SourceType": "Discovered",
@@ -37925,6 +37942,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\files\\1ef4f8ac-1ea2-4012-8cba-c11d5d961436cat.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\OneDrive\\İş masası\\K205\\Back\\Fruitkhhaa\\Fruitkhhaa\\wwwroot\\files\\24cfbb61-bd53-4560-a9e6-25ab7d1d3c98sekil.webp",
+      "SourceId": "Fruitkhhaa",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\OneDrive\\İş masası\\K205\\Back\\Fruitkhhaa\\Fruitkhhaa\\wwwroot\\",
+      "BasePath": "_content/Fruitkhhaa",
+      "RelativePath": "files/24cfbb61-bd53-4560-a9e6-25ab7d1d3c98sekil.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\24cfbb61-bd53-4560-a9e6-25ab7d1d3c98sekil.webp"
     },
     {
       "Identity": "C:\\Users\\User\\OneDrive\\İş masası\\K205\\Back\\Fruitkhhaa\\Fruitkhhaa\\wwwroot\\files\\27028341-4dc6-4d89-98e2-edf48218a9d6sekil.webp",
@@ -38199,6 +38233,23 @@
       "OriginalItemSpec": "wwwroot\\files\\5c01dd94-f866-4fca-a8f3-3de82efa8ddcgirl-2252145_960_720.webp"
     },
     {
+      "Identity": "C:\\Users\\User\\OneDrive\\İş masası\\K205\\Back\\Fruitkhhaa\\Fruitkhhaa\\wwwroot\\files\\5d3e679d-a595-45bf-9254-72389c817ea6wlp.jpg",
+      "SourceId": "Fruitkhhaa",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\OneDrive\\İş masası\\K205\\Back\\Fruitkhhaa\\Fruitkhhaa\\wwwroot\\",
+      "BasePath": "_content/Fruitkhhaa",
+      "RelativePath": "files/5d3e679d-a595-45bf-9254-72389c817ea6wlp.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\5d3e679d-a595-45bf-9254-72389c817ea6wlp.jpg"
+    },
+    {
       "Identity": "C:\\Users\\User\\OneDrive\\İş masası\\K205\\Back\\Fruitkhhaa\\Fruitkhhaa\\wwwroot\\files\\61e1d6ad-2bdd-4c2c-9402-82ab1e01850acat.jpg",
       "SourceId": "Fruitkhhaa",
       "SourceType": "Discovered",
@@ -38384,6 +38435,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\files\\9cd168a8-e59e-406d-8cf8-3aa00da98f84girl-2252145_960_720.webp"
+    },
+    {
+      "Identity": "C:\\Users\\User\\OneDrive\\İş masası\\K205\\Back\\Fruitkhhaa\\Fruitkhhaa\\wwwroot\\files\\a3aa7dff-3db8-4148-8b8f-c1c4ca942adeWallpaper.webp",
+      "SourceId": "Fruitkhhaa",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\OneDrive\\İş masası\\K205\\Back\\Fruitkhhaa\\Fruitkhhaa\\wwwroot\\",
+      "BasePath": "_content/Fruitkhhaa",
+      "RelativePath": "files/a3aa7dff-3db8-4148-8b8f-c1c4ca942adeWallpaper.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\a3aa7dff-3db8-4148-8b8f-c1c4ca942adeWallpaper.webp"
+    },
+    {
+      "Identity": "C:\\Users\\User\\OneDrive\\İş masası\\K205\\Back\\Fruitkhhaa\\Fruitkhhaa\\wwwroot\\files\\a660ec70-bd1a-4486-9fc8-81e0eda48ab9wlp.jpg",
+      "SourceId": "Fruitkhhaa",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\OneDrive\\İş masası\\K205\\Back\\Fruitkhhaa\\Fruitkhhaa\\wwwroot\\",
+      "BasePath": "_content/Fruitkhhaa",
+      "RelativePath": "files/a660ec70-bd1a-4486-9fc8-81e0eda48ab9wlp.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\a660ec70-bd1a-4486-9fc8-81e0eda48ab9wlp.jpg"
     },
     {
       "Identity": "C:\\Users\\User\\OneDrive\\İş masası\\K205\\Back\\Fruitkhhaa\\Fruitkhhaa\\wwwroot\\files\\a75885a0-c4f3-44c2-bc0d-6a26a2ffd24esekil.webp",

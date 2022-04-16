@@ -14,8 +14,13 @@ namespace Fruitkhhaa.Controllers
         private readonly IFreeManager _freeManager;
         private readonly IDealManager _dealManager;
         private readonly IOwnerManager _ownerManager;
+        private readonly ISaleManager _saleManager;
+        private readonly ISinceManager _sinceManager;
+        private readonly IProductManager _productManager;
+        private readonly ICategoryManager _categoryManager;
+        private readonly IPhotoManager _photoManager;
 
-        public HomeController(ILogger<HomeController> logger, INewManager newManager, IOrganicManager organicManager, IFreeManager freeManager, IDealManager dealManager, IOwnerManager ownerManager)
+        public HomeController(ILogger<HomeController> logger, INewManager newManager, IOrganicManager organicManager, IFreeManager freeManager, IDealManager dealManager, IOwnerManager ownerManager, ISaleManager saleManager, ISinceManager sinceManager, IProductManager productManager, ICategoryManager categoryManager, IPhotoManager photoManager)
         {
             _logger = logger;
             _newManager = newManager;
@@ -23,6 +28,11 @@ namespace Fruitkhhaa.Controllers
             _freeManager = freeManager;
             _dealManager = dealManager;
             _ownerManager = ownerManager;
+            _saleManager = saleManager;
+            _sinceManager = sinceManager;
+            _productManager = productManager;
+            _categoryManager = categoryManager;
+            _photoManager = photoManager;
         }
 
         public IActionResult Index()
@@ -33,8 +43,12 @@ namespace Fruitkhhaa.Controllers
                 Organies = _organicManager.GetAll(),
                 Frees = _freeManager.GetAll(),
                 Deals = _dealManager.GetAll(),
-                Owners = _ownerManager.GetAll()
-
+                Owners = _ownerManager.GetAll(),
+                Sales = _saleManager.GetAll(),
+                Sinces = _sinceManager.GetAll(),
+                Products = _productManager.GetAll(),
+                Categories = _categoryManager.GetAll(),
+                Photos = _photoManager.GetAll()
             };
             return View(vm);
         }
