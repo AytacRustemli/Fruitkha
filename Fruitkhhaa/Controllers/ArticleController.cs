@@ -12,13 +12,17 @@ namespace Fruitkhhaa.Controllers
         private readonly IHttpContextAccessor _httpContextAccessor;
         private readonly UserManager<User> _userManager;
         private readonly ICommentManager _commentManager;
+        private readonly IPhotoManager _photoManager;
+        private readonly IOrganicManager _organicManager;
 
-        public ArticleController(INewManager newManager, UserManager<User> userManager, IHttpContextAccessor httpContextAccessor, ICommentManager commentManager)
+        public ArticleController(INewManager newManager, UserManager<User> userManager, IHttpContextAccessor httpContextAccessor, ICommentManager commentManager, IOrganicManager organicManager, IPhotoManager photoManager)
         {
             _newManager = newManager;
             _userManager = userManager;
             _httpContextAccessor = httpContextAccessor;
             _commentManager = commentManager;
+            _organicManager = organicManager;
+            _photoManager = photoManager;
         }
 
 
@@ -33,7 +37,9 @@ namespace Fruitkhhaa.Controllers
                 NewSingle = news,
                 User = _userManager.FindByIdAsync(news.UserId).Result,
                 Comments = comments,
-                News = _newManager.GetAll()
+                News = _newManager.GetAll(),
+                Photos = _photoManager.GetAll(),
+                Organic = _organicManager.GetById(7)
             };
             return View(vm);
         }

@@ -203,8 +203,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/User/OneDrive/İş masası/K205/Back/Fruitkhhaa/Fruitkhhaa/Views/About/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/User/OneDrive/İş masası/K205/Back/Fruitkhhaa/Fruitkhhaa/Views/Article/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWNsZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/OneDrive/İş masası/K205/Back/Fruitkhhaa/Fruitkhhaa/Views/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/User/OneDrive/İş masası/K205/Back/Fruitkhhaa/Fruitkhhaa/Views/Home/Index.cshtml]
@@ -213,6 +221,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/User/OneDrive/İş masası/K205/Back/Fruitkhhaa/Fruitkhhaa/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/OneDrive/İş masası/K205/Back/Fruitkhhaa/Fruitkhhaa/Views/News/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/User/OneDrive/İş masası/K205/Back/Fruitkhhaa/Fruitkhhaa/Views/Product/Index.cshtml]

@@ -38,12 +38,17 @@ namespace Services.Concrete
 
         public List<Free> GetAll()
         {
-            return _context.Frees.ToList();
+            return _context.Frees.Take(3).ToList();
         }
 
         public Free GetById(int? id)
         {
             return _context.Frees.FirstOrDefault(x => x.Id == id);
+        }
+
+        public List<Free> GetFreeAll()
+        {
+            return _context.Frees.ToList();
         }
     }
 }

@@ -9,5 +9,7 @@ namespace Fruitkhhaa.ViewModel
         public User User { get; set; }
         public List<Comment> Comments { get; set; }
         public Comment Comment { get; set; }
+        public Organic Organic { get; set; }
+        public List<Photo> Photos { get; set; }
     }
 }

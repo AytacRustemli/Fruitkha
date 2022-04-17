@@ -20,7 +20,6 @@ namespace Fruitkhhaa.Areas.admin.Controllers
         {
             var organics = _organicManager.GetAll();
             return View(organics);
-            
         }
 
         // GET: OrganicController/Details/5

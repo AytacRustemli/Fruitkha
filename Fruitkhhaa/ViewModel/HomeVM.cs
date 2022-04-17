@@ -6,6 +6,7 @@ namespace Fruitkhhaa.ViewModel
     {
         public List<New> News { get; set; }
         public List<Organic> Organies { get; set; }
+        public Organic Organic { get; set; }
         public List<Free> Frees { get; set; }
         public List<Deal> Deals { get; set; }
         public List<Owner> Owners { get; set; }

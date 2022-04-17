@@ -30,6 +30,7 @@ namespace DataAccess
         public DbSet<Comment> Comments { get; set; }
         public DbSet<New> News { get; set; }
         public DbSet<Organic> Organics { get; set; }
+        public DbSet<Contact> Contacts { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

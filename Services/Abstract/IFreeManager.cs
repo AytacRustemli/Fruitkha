@@ -14,5 +14,6 @@ namespace Services.Abstract
         void Create(Free free);
         void Edit(Free free);
         void Delete(Free free);
+        List<Free> GetFreeAll();
     }
 }

@@ -19,7 +19,7 @@ namespace Fruitkha.Areas.admin.Controllers
         // GET: FreeController
         public IActionResult Index()
         {
-            var free = _freeservices.GetAll();
+            var free = _freeservices.GetFreeAll();
             return View(free);
         }
 

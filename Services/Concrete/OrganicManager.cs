@@ -38,7 +38,7 @@ namespace Services.Concrete
 
         public List<Organic> GetAll()
         {
-            var organic = _context.Organics.ToList();
+            var organic = _context.Organics.Take(3).ToList();
             return organic;
         }
 
