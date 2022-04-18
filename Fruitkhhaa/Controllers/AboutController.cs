@@ -32,7 +32,7 @@ namespace Fruitkhhaa.Controllers
                 Organic = _organicManager.GetById(5),
                 Frees = _freeManager.GetFreeAll(),
                 Sales = _saleManager.GetAll(),
-                News = _newManager.GetAll(),
+                News = _newManager.GetNewAll(),
                 Owners = _ownerManager.GetAll(),
                 Photos = _photoManager.GetAll()
             };

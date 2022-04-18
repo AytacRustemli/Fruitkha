@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using DataAccess;
 using Entities;
+using Microsoft.EntityFrameworkCore;
 using Services.Abstract;
 
 namespace Services.Concrete
@@ -40,6 +41,25 @@ namespace Services.Concrete
         {
             var product = _context.Products.ToList();
             return product;
+        }
+
+        public List<Product> GetAll(int? pageNo, int recordSize)
+        {
+            if (pageNo == null)
+            {
+                pageNo = 1;
+            }
+            int currentPage = 6 * pageNo.Value - 6;
+
+
+            var product = _context.Products.Skip(currentPage).Take(recordSize).Include(x => x.Category).ToList();
+            return product;
+        }
+
+        public int GetAllCount()
+        {
+            var product = _context.Products.ToList();
+            return product.Count;
         }
 
         public Product GetById(int id)

@@ -39,7 +39,7 @@ namespace Fruitkhhaa.Controllers
         {
             HomeVM vm = new()
             {
-                News = _newManager.GetAll(),
+                News = _newManager.GetNewAll(),
                 Organies = _organicManager.GetAll(),
                 Frees = _freeManager.GetAll(),
                 Deals = _dealManager.GetAll(),

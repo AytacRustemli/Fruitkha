@@ -281,3 +281,5 @@ C:\Users\User\OneDrive\İş masası\K205\Back\Fruitkhhaa\Fruitkhhaa\bin\Debug\ne
 C:\Users\User\OneDrive\İş masası\K205\Back\Fruitkhhaa\Fruitkhhaa\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\User\OneDrive\İş masası\K205\Back\Fruitkhhaa\Fruitkhhaa\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\User\OneDrive\İş masası\K205\Back\Fruitkhhaa\Fruitkhhaa\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\User\OneDrive\İş masası\K205\Back\Fruitkhhaa\Fruitkhhaa\bin\Debug\net6.0\Helper.dll
+C:\Users\User\OneDrive\İş masası\K205\Back\Fruitkhhaa\Fruitkhhaa\bin\Debug\net6.0\Helper.pdb

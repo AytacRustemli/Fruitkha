@@ -3278,6 +3278,16 @@
           "bin/placeholder/Entities.dll": {}
         }
       },
+      "Helper/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Helper.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Helper.dll": {}
+        }
+      },
       "Services/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -10112,6 +10122,11 @@
       "path": "../Entities/Entities.csproj",
       "msbuildProject": "../Entities/Entities.csproj"
     },
+    "Helper/1.0.0": {
+      "type": "project",
+      "path": "../Helper/Helper.csproj",
+      "msbuildProject": "../Helper/Helper.csproj"
+    },
     "Services/1.0.0": {
       "type": "project",
       "path": "../Services/Services.csproj",
@@ -10121,6 +10136,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "DataAccess >= 1.0.0",
+      "Helper >= 1.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.3",
       "Microsoft.AspNetCore.Identity.UI >= 6.0.3",
       "Microsoft.EntityFrameworkCore >= 6.0.3",
@@ -10164,6 +10180,9 @@
           "projectReferences": {
             "C:\\Users\\User\\OneDrive\\İş masası\\K205\\Back\\Fruitkhhaa\\DataAccess\\DataAccess.csproj": {
               "projectPath": "C:\\Users\\User\\OneDrive\\İş masası\\K205\\Back\\Fruitkhhaa\\DataAccess\\DataAccess.csproj"
+            },
+            "C:\\Users\\User\\OneDrive\\İş masası\\K205\\Back\\Fruitkhhaa\\Helper\\Helper.csproj": {
+              "projectPath": "C:\\Users\\User\\OneDrive\\İş masası\\K205\\Back\\Fruitkhhaa\\Helper\\Helper.csproj"
             },
             "C:\\Users\\User\\OneDrive\\İş masası\\K205\\Back\\Fruitkhhaa\\Services\\Services.csproj": {
               "projectPath": "C:\\Users\\User\\OneDrive\\İş masası\\K205\\Back\\Fruitkhhaa\\Services\\Services.csproj"

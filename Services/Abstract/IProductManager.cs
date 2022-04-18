@@ -14,5 +14,7 @@ namespace Services.Abstract
         void Edit(Product product);
         void Delete(Product product);
         Product GetById(int id);
+        List<Product> GetAll(int? pageNo, int recordSize);
+        int GetAllCount();
     }
 }

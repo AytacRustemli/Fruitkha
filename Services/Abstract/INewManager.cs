@@ -15,5 +15,8 @@ namespace Services.Abstract
         void Edit(New news);
         void Delete(New news);
         New GetNewById(int? id);
+        List<New> GetAll(int? pageNo, int recordSize);
+        int GetAllCount();
+        List<New> GetNewAll();
     }
 }

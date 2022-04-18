@@ -78,7 +78,7 @@
 							<ul>
 								@foreach (var item in Model.News)
 							   {
-								   <li><a href="single-news.html">@item.Title</a></li>
+								   <li><a href="/article/index/@item.Id">@item.Title</a></li>
 							   }
 								
 								
@@ -89,7 +89,7 @@
 							<ul>
 								@foreach (var item in Model.News)
 								{
-									<li><a href="single-news.html">@item.PublishDate.ToString("dd MM yyyy")</a></li>
+									<li><a href="/article/index/@item.Id">@item.PublishDate.ToString("dd MM yyyy")</a></li>
 								}
 								
 								

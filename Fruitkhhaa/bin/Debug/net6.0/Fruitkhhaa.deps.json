@@ -9,6 +9,7 @@
       "Fruitkhhaa/1.0.0": {
         "dependencies": {
           "DataAccess": "1.0.0",
+          "Helper": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.3",
           "Microsoft.AspNetCore.Identity.UI": "6.0.3",
           "Microsoft.EntityFrameworkCore": "6.0.3",
@@ -2368,6 +2369,11 @@
           "Entities.dll": {}
         }
       },
+      "Helper/1.0.0": {
+        "runtime": {
+          "Helper.dll": {}
+        }
+      },
       "Services/1.0.0": {
         "dependencies": {
           "DataAccess": "1.0.0",
@@ -3701,6 +3707,11 @@
       "sha512": ""
     },
     "Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Helper/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
