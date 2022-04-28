@@ -34,6 +34,7 @@ builder.Services.AddScoped<ICommentManager, CommentManager>();
 builder.Services.AddScoped<ISinceManager, SinceManager>();
 builder.Services.AddScoped<IPhotoManager, PhotoManager>();
 builder.Services.AddScoped<IContactManager, ContactManager>();
+builder.Services.AddScoped<ICheckOutManager, CheckOutManager>();
 
 
 builder.Services.ConfigureApplicationCookie(option =>

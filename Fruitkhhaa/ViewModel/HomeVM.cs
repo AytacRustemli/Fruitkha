@@ -14,6 +14,7 @@ namespace Fruitkhhaa.ViewModel
         public List<Since> Sinces { get; set; }
         public List<Sale>  Sales { get; set; }
         public List<Product> Products { get; set; }
+        public Product ProductSingle { get; set; }
         public List<Category> Categories { get; set; }
         public List<Photo> Photos { get; set; }
         public Pager Pager { get; set; }

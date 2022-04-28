@@ -31,12 +31,15 @@ namespace DataAccess
         public DbSet<New> News { get; set; }
         public DbSet<Organic> Organics { get; set; }
         public DbSet<Contact> Contacts { get; set; }
+        public DbSet<Check> Checks { get; set; }
+
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
             builder.Entity<User>().ToTable("Users");
             builder.Entity<IdentityRole>().ToTable("Roles");
+           
         }
     }
 }

@@ -31,10 +31,8 @@
 						<p class="single-product-pricing"><span>Per Kg</span> @Model.ProductSingle.Price $</p>
 						<p>@Model.ProductSingle.Description</p>
 						<div class="single-product-form">
-							<form action="index.html">
-								<input type="number" placeholder="0">
-							</form>
-							<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+							
+							<a href="/checkout/index/@Model.ProductSingle.Id" class="cart-btn"><i class="fas fa-shopping-cart"></i>Buy</a>
 							<p><strong>Categories: </strong>@Model.ProductSingle.Category.Name</p>
 						</div>
 						

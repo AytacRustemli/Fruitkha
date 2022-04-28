@@ -58,6 +58,7 @@ namespace Services.Concrete
 
         public int GetAllCount()
         {
+
             var product = _context.Products.ToList();
             return product.Count;
         }
@@ -65,6 +66,7 @@ namespace Services.Concrete
         public Product GetById(int id)
         {
             var product = _context.Products.FirstOrDefault(x => x.Id == id);
+            
             return product;
         }
     }
